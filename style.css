@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+}
+#container{
+    width: 1100px;
+}
+div.row {
+    line-height: 0;
+}
+div.row div{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+div.brick{
+    background-color: #364a99;
+}
+div.pepper{
+    background: url(gem.gif);
+    background-size: contain;
+    background-position: center;
+}   
+
+div.empty{
+
+}
+#pacman {
+    width: 50px;
+    height: 50px;
+    background: url('cowboy.gif') no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+} 
+
